@@ -5,8 +5,13 @@ Perfect for projects like browser games or complex web apps that need tight inte
 
 If your app is strictly backend or simple frontend-only, this might be more than you need — but if you want a unified, clean workflow for full-stack TypeScript with Bun and Express, this template has your back.
 
+## Express Variant
+
+This template is the same as the previous one but comes pre configured with express with ejs.
+
 
 If you run the command it will automaticaly build the necessary scripts from src to dist, converting all the client side code to js and keeping all the server side code as ts.
+
 
 ```bash
 bun run dev

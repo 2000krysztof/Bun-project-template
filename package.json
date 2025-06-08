@@ -3,17 +3,25 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-	  "build": "hack/build.sh",
-	  "dev": "hack/build.sh ; bun run dist/index.ts",
-	  "dev-watch":"bun run watcher.ts"
+    "build": "hack/build.sh",
+    "dev": "hack/build.sh ; bun run dist/index.ts",
+    "dev-watch": "bun run watcher.ts"
   },
   "private": true,
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "@types/express": "^5.0.3",
+    "@types/ejs": "^3.1.5",
+    "@types/cookie-parser": "^1.4.8",
   },
   "peerDependencies": {
     "typescript": "^5"
   },
   "dependencies": {
+    "express": "^5.1.0",
+    "cookie-parser": "^1.4.7",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-ejs-layouts": "^2.5.1"
   }
 }
