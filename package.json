@@ -1,0 +1,19 @@
+{
+  "name": "embeddingsvisualizer",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+	  "build": "hack/build.sh",
+	  "dev": "hack/build.sh ; bun run dist/index.ts",
+	  "dev-watch":"bun run watcher.ts"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+  }
+}
